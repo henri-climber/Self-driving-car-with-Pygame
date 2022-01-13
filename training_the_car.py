@@ -244,7 +244,7 @@ def run_main(config_path):
     winner = p.run(main, 20)
 
     # Save the winner.
-    with open('real_car1,trash', 'wb') as f:
+    with open('car_model2', 'wb') as f:
         pickle.dump(winner, f)
 
     net = neat.nn.FeedForwardNetwork.create(winner, config)
