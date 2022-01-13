@@ -13,4 +13,4 @@ loading_trained_car.py loads a pre-trained model and lets the car drive based on
 # Setup
 You need to have python, neat and pygame installed in order to run the program. 
 Installation of pygame: https://pypi.org/project/pygame/ 
-Installation of Neat: https://pypi.org/project/neat-python/
+Installation of Neat: https://pypi.org/project/neat-python/ 
