@@ -1,5 +1,7 @@
 # Self-driving-car-with-Pygame
 A car learns to drive in a small 2D environment using the NEAT-Algorithm with Pygame
+![grafik](https://user-images.githubusercontent.com/96082972/149396520-46d86285-b48f-4c33-9cff-294b6dbf1582.png)
+
 
 # Description
 A car has 5 sensors ("eyes") to detect and learn the distance to the road boundary. Using these sensors and Python's Neat library, cars are trained to steer and stay on the road. Neat is a genetic algorithm that starts with a simple neural network and increases its complexity over the next few generations. In each generation there are many cars, each car having its own neural network. Once a generation is over (all cars are "dead"), Neat constructs the neural networks of the new generation based on the neural network of the best car of the previous generation. With this technique, the algorithm learns how to drive and gets better and better over the generations.
