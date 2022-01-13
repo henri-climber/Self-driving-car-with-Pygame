@@ -218,7 +218,7 @@ def run_main(config_path):
                                 neat.DefaultStagnation, config_path)
 
     # Save the winner.
-    with open('real_car1', 'rb') as f:
+    with open('trained_car_model1', 'rb') as f:
         genomes = pickle.load(f)
         f.close()
 
